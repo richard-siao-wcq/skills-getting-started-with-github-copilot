@@ -70,6 +70,31 @@ section h3 {
   color: #0066cc;
 }
 
+.participants-list {
+  margin-top: 5px;
+  margin-left: 0;
+  list-style: none;
+  color: #333;
+  padding-left: 0;
+}
+.participants-list li {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.remove-btn {
+  cursor: pointer;
+  color: #c62828;
+  font-weight: bold;
+  padding: 0 5px;
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+.remove-btn:hover {
+  background-color: #ffebee;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
